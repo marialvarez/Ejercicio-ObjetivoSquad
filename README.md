@@ -1,4 +1,4 @@
-# ejercicio-1
+# Ejercicio Objetivo Squad 80%
 
 Ejercicio - 1
 
