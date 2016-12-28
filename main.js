@@ -5,7 +5,11 @@ function calcular()
     var maxPuntos = document.getElementById("maxPuntos").value;
     var porcentaje = (0.80 * maxPuntos);
 
-	if(puntosSquad >= porcentaje) {
+	if (puntosSquad=="" || maxPuntos=="") {
+        document.getElementById("salida").innerHTML = "Faltan llenar datos"
+    }
+    else{
+        if(puntosSquad >= porcentaje) {
 		//Si es verdad hace esto
 		document.getElementById("salida").innerHTML = "Muy bien Squad!";
 
@@ -14,6 +18,8 @@ function calcular()
         //Si no es verdad hace esto
 		document.getElementById("salida").innerHTML = "Pueden hacerlo mejor."
 	}
+        
+    }
 }
 
 
